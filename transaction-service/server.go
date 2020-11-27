@@ -1,4 +1,5 @@
 package main
+
 import (
 	"log"
 	"net"
@@ -6,7 +7,7 @@ import (
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "githum.com/baadjis/fipay/transaction-service/pb"
+	pb "githum.com/baadjis/fipay/transaction-service/pb/transaction"
 
 	
 
